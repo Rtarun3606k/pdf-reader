@@ -1,0 +1,36 @@
+**Key Points**
+
+* **Introduction:**
+    * Quantum mechanics is the study of the behavior of particles at the atomic and subatomic levels.
+    * It differs from classical mechanics in that it introduces the concept of wave-particle duality, which means that particles have both particle-like and wave-like properties.
+    * The Schrödinger's wave equation is a fundamental equation in quantum mechanics that describes the wave function of a particle and its evolution over time.
+
+* **Solution of the Wave Equation for a Moving Free Particle:**
+    * A free particle is a particle that is not subject to any external forces.
+    * The wave function of a free particle is a plane wave, which is a wave that travels at a constant speed in a straight line.
+    * The energy and momentum of a free particle are related by the de Broglie relation, which states that the wavelength of a particle is inversely proportional to its momentum.
+
+* **Solution of the Wave Equation for a Moving Particle Encountering a Potential Step:**
+    * When a particle encounters a potential step, its wave function will be partially reflected and partially transmitted.
+    * The probability of reflection and transmission depends on the energy of the particle and the height of the potential step.
+    * For particles with energies below the height of the potential step, there is a finite probability of tunneling through the potential barrier.
+
+* **Solution of the Wave Equation for a Moving Particle Confined to a Region with Infinite Potentials at the Boundaries:**
+    * When a particle is confined to a region with infinite potentials at the boundaries, its wave function must be zero at the boundaries.
+    * The allowed energies of the particle are quantized, meaning that they can only take on certain discrete values.
+    * The wave functions of the particle are standing waves, which are waves that have a fixed number of nodes and antinodes.
+
+* **Solution of the Wave Equation for a Moving Particle Encountering a Potential Barrier:**
+    * When a particle encounters a potential barrier, its wave function will be partially reflected and partially transmitted.
+    * The probability of reflection and transmission depends on the energy of the particle, the height of the potential barrier, and the width of the potential barrier.
+    * For particles with energies below the height of the potential barrier, there is a finite probability of tunneling through the potential barrier.
+
+* **Solution of the Wave Equation for a Moving Particle Confined to a Region with Finite Potentials at the Boundaries:**
+    * When a particle is confined to a region with finite potentials at the boundaries, its wave function will not be zero at the boundaries.
+    * The allowed energies of the particle are not quantized, but they are still discrete.
+    * The wave functions of the particle are not standing waves, but they still have a fixed number of nodes and antinodes.
+
+* **Qualitative Discussions of the Solutions of the Wave Equation for a Moving Particle Confined to a Region with Finite Potentials at the Boundaries:**
+    * The energy of a particle confined to a region with finite potentials at the boundaries is always greater than the energy of the particle in the free state.
+    * The wave function of a particle confined to a region with finite potentials at the boundaries is always localized, meaning that it is concentrated in a particular region of space.
+    * The probability of finding a particle in a particular region of space is proportional to the square of the wave function in that region.

@@ -1,0 +1,1450 @@
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+1 Department of Science and Humanities - Physics                                       
+ 
+Unit II – Quantum Mechanics of simple systems  
+Topics covered under this unit  
+1. The Schrodinger’s wave equation  
+a. Time dependent wave equation  
+b. Time independent wave equation  
+ 
+2. Solutions of the wave equation to interpret a moving free particle  
+3. Solutions of the wave equation to interpret a moving particle encounter ing a potential step  
+a. Energy of the particle greater than the potential step  
+b. Energy of the particle less than the potential step  
+ 
+4. Solutions of the wave equation to interpret a moving particle encounter a potential barrier  
+a. Barrier tunneling  
+b. Radioactive alpha decay as a case of barrier tunneling  
+ 
+5. Solutions of the wave equation to interpret a moving particle confined to a region with infinite 
+potentials at the boundari es  
+a. One dimensional potential well  
+b. Two dimensional potential well  
+c. Three dimensional potential well  
+ 
+6. Qualitative discussions of the solutions of the wave equation to describe  a moving particle 
+confined to a region with finite potentials at the boundaries  
+ 
+7. Solutions of the wave equation to interpret a system if two particles connected with a bond as a 
+harmonic oscillator  
+ 
+8. Discussions of the wave functions of a hydrogen atom  
+  Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+2 Department of Science and Humanities - Physics                                       
+ 
+Schrodinger’s Wave equation  
+The moving particle is described by a wave function and there is a need to have a wave equation 
+which can describe this moving particle. Schrodinger’s approach to describe the motion in terms of a 
+differential equation is one of the most popular methods. (Dirac’s operator mechanics with vector 
+spaces is another method of describing the moving particle and is a computational friendly method.)  
+The one dimensional time dependent Schrodinger’s wave equation  
+The most general met hod of describing a system involves evaluating the system in terms of the state 
+variables of position and time.  
+The total energy of a system is equal to the sum of kinetic energy and potential energy  (which are 
+observables of the system)  
+The energy express ion can be written as    E = KE + V  
+Multiplying throughout with  the wave function  ψ   we get     
+𝑬𝝍(𝒙,𝒕)=𝑲𝑬𝝍 (𝒙,𝒕)+𝑽𝝍(𝒙,𝒕)                          ……… (1)  
+This equation can be written in terms of the corresponding operators as  
+                                             𝑬̂𝝍(𝒙,𝒕)=𝑲𝑬̂𝝍(𝒙,𝒕)+𝑽𝝍(𝒙,𝒕)      
+which is an eigen value equation for the total 
+energy of the system.  
+The total energy operator is {𝑖ℏ𝜕
+𝜕𝑡}, the 
+kinetic energy operator is {−ℏ2
+2𝑚𝜕2
+𝜕𝑥2}.   
+replacing the total energy and the kinetic 
+energy terms with the respective operators 
+we can rewrite the expression (1) as  
+𝒊ℏ𝝏𝝍
+𝝏𝒕= −ℏ𝟐
+𝟐𝒎𝝏𝟐𝝍
+𝝏𝒙𝟐+𝑽𝝍 
+or                                                         ℏ𝟐
+𝟐𝒎𝝏𝟐𝚿
+𝝏𝒙𝟐+𝒊ℏ𝝏𝚿
+𝝏𝒕−𝑽𝚿=𝟎   ….(2)  
+which is the Schrödinger’s time dependent wave function since Ψ(x,t) is a function of both position 
+and time.  
+The solution of the differential equation yields the wave function  𝚿 which is the state function of the 
+system.  
+The one dimensional time independent Schrodinger’s wave equation  
+Generally any  system in the steady state   is time invariant and hence the wave function could be 
+independent of time.  In such a case we can write the wave function can be written as the product of 
+two functions one that is position dependent and the other time dependent.  
+Ie.,  Ψ(𝑥,𝑡)= 𝐴𝑒𝑖
+ℏ(𝑝𝑥).𝑒−𝑖
+ℏ(𝐸𝑡)= 𝜓(𝑥) .𝜙(𝑡) 
+where 𝜓(𝑥)= 𝐴𝑒𝑖
+ℏ(𝑝𝑥)  is the position dependent part and   𝜙(𝑡)=𝑒−𝑖
+ℏ(𝐸𝑡) is the time dependent part.  
+Substituting Ψ(𝑥,𝑡)= 𝜓(𝑥) .𝜙(𝑡) in equation (2 ) we get   
+ℏ2
+2𝑚𝜕2𝜓(𝑥).𝜙(𝑡)
+𝜕𝑥2                +𝑖ℏ𝜕𝜓(𝑥).𝜙(𝑡)
+𝜕𝑡                 −𝑉𝜓(𝑥).𝜙(𝑡)=0   
+The total energy E of the steady state system being a constant, the total energy operator can be 
+replaced by the value E with no loss of sense.  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+3 Department of Science and Humanities - Physics                                       
+ 
+ ℏ2
+2𝑚𝑑2𝜓(𝑥).𝜙(𝑡)
+𝑑𝑥2 +𝐸𝜓(𝑥).𝜙(𝑡)−𝑉𝜓(𝑥).𝜙(𝑡)=0   
+The above equation can be written as  {ℏ2
+2𝑚𝑑2𝜓(𝑥).
+𝑑𝑥2+𝐸𝜓(𝑥) −𝑉𝜓(𝑥)}∗𝜙(𝑡)=0   
+We recognize that the  product of two functions is zero and since 𝜙(𝑡)≠0   
+   ℏ𝟐
+𝟐𝒎𝒅𝟐𝝍(𝒙).
+𝒅𝒙𝟐      +𝑬𝝍(𝒙) −𝑽𝝍(𝒙)=𝟎   ………………….(3)  
+This is the Schrödinger’s time independent one dimensional wave equation. The solutions of the 
+Schrodinger’s wave equation yield the wave function  𝜓(𝑥) which  describes the physical state of the 
+system.  
+The solution so obtained has to be checked for continuities at any boundaries and normalized  to get 
+the exact wave function of the system.  
+In general the Hamiltonian form of this equation is written as  
+𝐇𝚿 =𝐄𝚿 
+Where the Hamiltonian operator  𝑯̂=𝑲𝑬̂+𝑷𝑬̂={ℏ2
+2𝑚𝑑2  
+𝑑𝑥2 –𝑉} 
+ 
+[Three dimensional Schrodinger’s wave equation . 
+The Schrodinger’s wave equation for a 3D can be evolved by looking at the problem as three one 
+dimensional problem in the independent variables x,y and z. The wave function of such a system can 
+be written as  
+Ψ(𝑥,𝑦,𝑧)= 𝜓(𝑥)𝜓(𝑦)𝜓(𝑧)  where 𝜓(𝑥),𝜓(𝑦) 𝑎𝑛𝑑  𝜓(𝑧) are the three mutually independent wave 
+functions of the particles in the orthogonal co -ordinate system.  
+The derivatives of the wave function can be written as partial derivatives of the wave function . 
+The SWE then can be written as  
+ℏ2
+2𝑚(𝜕2   
+𝜕𝑥2  +𝜕2     
+𝜕𝑦2  +𝜕2  
+𝜕𝑧2   )Ψ(𝑥,𝑦,𝑧)+(𝐸 –𝑉)Ψ(𝑥,𝑦,𝑧)=0  
+  which can be simplified as  
+ℏ2
+2𝑚∇2Ψ(𝑥,𝑦,𝑧)+(𝐸 –𝑉)Ψ(𝑥,𝑦,𝑧)=0  
+where   ∇2=(𝜕2   
+𝜕𝑥2  +𝜕2     
+𝜕𝑦2  +𝜕2  
+𝜕𝑧2   ) is the Laplacian operator  
+  ∇2=∇.∇ and the operator  ∇=𝑖̂𝜕   
+𝜕𝑥 +𝑗̂𝜕   
+𝜕𝑦 +𝑘̂𝜕   
+𝜕𝑧  ] 
+[Linear superposition of wave functions from SWE.  
+The wave function 𝜓(𝑥) which is the solution of the differential equation ℏ2
+2md2ψ(x).
+dx2+Eψ(x) −Vψ(x)=
+0   is a state function.  Since a system could have multiple states the solution of the wave equation 
+can give us multiple   wave  functions  𝜓(𝑥).  If   𝜓1(𝑥) represents a state 1 andf   𝜓2(𝑥) represents a 
+state 2 of the system then it can be seen that a linear  combination of   𝜓1(𝑥) and 𝜓2(𝑥) is also a 
+solution of the SWE. Thus 𝜓12(𝑥)=n.𝜓1(𝑥) +m.𝜓2(𝑥) will also be a solution of the SWE.  It is 
+obvious that the superposition of two waves is a wave packet and can represent the state of a 
+system.  
+It is also evident  that the probability densities however do not add to give the probability density of the 
+new state and has to be estimated from the new wave function    ] Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+4 Department of Science and Humanities - Physics                                       
+ 
+ 
+Template for solving problems in quantum mechanics using the Schrödinger’s wave equation  
+The Schrodinger’s wave equation can be applied to any physical system and the solution of the wave 
+equation yields the wave function of the system. The wave function i s probability  amplitude and 
+contains information about the physical state (observables of the system). The wave function has to 
+be a well behaved wave function  to represent a moving particle . 
+The template for solving the Schrodinger’s wave equation is:  
+1. Define / set up the physical system (define particle nature, boundaries of potential, total 
+energy of the particle etc)  
+ 
+2. Write the Schrodinger’s wave equation and apply the known conditions  
+ 
+3. Obtain the general form of the wave function  
+ 
+4. Check / verify the wav e function for it’s characteristics  
+• finiteness, discreteness and continuity of 𝜓 𝑎𝑛𝑑  𝑖𝑡𝑠 𝑑𝑒𝑟𝑖𝑣𝑎𝑡𝑖𝑣𝑒𝑠 , 
+• normalization of the wave functions  
+ 
+5. Interpret  the solution and get the implications on the quantum system.  
+ 
+ 
+Problem no 1.  Free Particle solution  
+A particle is said to be a free particle when it experiences no external forces.  
+Thus the force given by   𝐹=−𝑑𝑉
+𝑑𝑥=0.  This implies that either V  is zero or V  is a constant.   
+The simplest case then could be when the particle is moving in a region of zero  potential i.e., V=0.  
+The Schrödinger’s time independent one dimensional wave equation  for the system simplifies to  
+ℏ2
+2𝑚𝑑2𝜓(𝑥).
+𝑑𝑥2+𝐸𝜓(𝑥) =0    or   𝑑2𝜓(𝑥).
+𝑑𝑥2+2𝑚
+ℏ2𝐸𝜓=0   
+𝒅𝟐𝝍(𝒙).
+𝒅𝒙𝟐+𝒌𝟐𝝍=𝟎  where 𝒌=√𝟐𝒎𝑬
+ℏ𝟐  is the propagation constant.  
+The solution of this differential equation is     𝝍=𝑨𝒆𝒊𝒌𝒙 +𝑩𝒆−𝒊𝒌𝒙   where A and B are constants.  
+As a general concept the first part describes a forward moving wave packet (in increasing x direction) 
+and the second part describes a backward moving wave packet (decreasing x direction)  
+The energy of the particle is given by   𝑬= ℏ𝟐𝒌𝟐
+𝟐𝒎 . 
+Since the free particle is moving in a zero potential region and there is no restriction on wave number 
+or the energy of the particle, we conclude that the total energy of the particle is kinetic in nature  with 
+no implications of quantization.  
+This could the quantum des cription of a classical free particle.  
+Energy interaction of particles with fields  
+Consider a simple arrangement of two highly conducting hollow tubes 
+perfectly aligned along the axes and electrically separated by an 
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+5 Department of Science and Humanities - Physics                                       
+ 
+extremely small distance.    Let the fir st tube be 
+connected to ground so that the potential on 
+the surface of the tube is V=0.  
+The second tube is connected to a constant 
+potential V=V o with respect to ground.  
+Consider a particle with energy E incident along 
+the axis of the first tube. Since the potential on 
+the surface of the tube is zero,  there is no effect on the particle’s motion inside the first segment. As 
+the particle leaves the first segment and tries to  enter the second segment, there is a forward 
+acceleration (deceleration) of the particle  as it enters the second segment. Once inside the second 
+segment the radial forces on the particle add up to zero and the particle continues to move through 
+the segmen t with energy 𝑬±𝑽. We treat this as an interaction of the particle with the field where it 
+has gained (or lost) energy with the potential field.  
+As the particle reaches the end of the second segment, the interaction is reversed. The particle can 
+now be d ecelerated (or accelerated) which results in the particle giving away the energy it gained (or 
+lost) back to the field.  
+This experiment reveals two aspects – a particle moving in force fields where the forces are zero 
+since 𝒅𝑽
+𝒅𝒙 is zero in both segment s of the tube. However, there can be an exchange of energy with the 
+field as the particle  enters or as the particle leaves the second part of tube where there exists a 
+constant potential .   
+Thus,  in general it can be concluded that a particle moving in a f ield can interact with the field and 
+exchange energy with the field at the boundaries. This concept is quite useful in understanding the 
+particle’s motion in a field.  
+Problem no. 2 -  Potential Steps  
+The behavior of a moving particle when it encounters a potential field along its path is the first step in 
+solving problems in Quantum Mechanics.  In reality the potential field varies inversely as the distance 
+from the source of the potential ( i.𝑒.,𝑉∝1
+𝑟). However , the solution of the Schrödinger’s wave equation 
+becomes difficult if the actual potential variations are considered.  It is therefore necessary and 
+sufficient if the potentials are approximated to simpler (solvable)  systems.   
+This leads to the concept of potential steps where the potential energy vs. 
+distance graphs show a discrete jump from a zero value to a constant 
+value V 0.  However the behavior of the wave function  (representing the 
+particle) can have different responses depending on the energy of the 
+particle as compared to the energy of the potential step. The energy of the 
+particle can be greater or less than the energy of the potential step.     
+ 
+The problem can be divided as a two region problem, region I in which the 
+potential V=0 and the region II in which the potential V= V 0.   
+The Schrödinger’s  wave equation     𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2(𝐸−𝑉)𝜓=0     
+for the region I with V=0 this becomes    𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2𝐸𝜓=0 
+The solution of the equation in region I is given by    
+𝜓1=𝐴𝑒𝑖𝑘1𝑥 +𝐵𝑒−𝑖𝑘1𝑥 
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+6 Department of Science and Humanities - Physics                                       
+ 
+where 𝑘1=√2𝑚𝐸
+ℏ2 and the debroglie wavelength  𝜆1=ℎ
+√2𝑚𝐸 
+The component with the positive exponent represents the oncoming wave and the negative exponent 
+represents the reflected wave at the boundary x=0  
+In region II the nature of the wave function will depend on the energy E of the particle in comparison 
+to the energy of the potential step.  
+Case I .  If the energy E of the particle is greater than the energy of the potential (E>V o) step then the 
+Schrödinger’s wave  equation  for the region II can  be written as   
+ 𝝏𝟐𝝍𝑰𝑰
+𝝏𝒙𝟐+𝟐𝒎
+ℏ𝟐(𝑬−𝑽𝒐)𝝍𝑰𝑰=𝟎  
+with the solution being    𝜓𝐼𝐼=𝐶𝑒−𝑖𝑘𝐼𝐼𝑥+𝐷𝑒𝑖𝑘𝐼𝐼𝑥  where 𝒌𝑰𝑰=√𝟐𝒎(𝑬−𝑽𝒐)
+ℏ𝟐.  The nature of the wave  
+function remains the cyclic  and the particle propagates  in region II 
+with reduced kinetic energy ( E-Vo.). The first term of the wave 
+function is non existing since there cannot be a reflection after x>0 
+as there is no disruption in the potential.   
+The momentum in the second region is given by  
+ ℏ𝒌𝑰𝑰= √𝟐𝒎(𝑬−𝑽𝒐)  and the corresponding debroglie 
+wavelength 𝝀𝑰𝑰=𝒉
+√𝟐𝒎(𝑬−𝑽𝒐)  which is longer than the debroglie 
+wavelength in region I . 
+In this case the constants B and D can be found in terms of A by applying the boundary condition that 
+the wave  function and its derivatives are finite and continuous at x = 0.  
+𝒂𝒕 𝒙=𝟎     𝝍𝑰(𝒙=𝟎)=𝝍𝑰𝑰(𝒙=𝟎) 𝒈𝒊𝒗𝒆𝒔  𝑨+𝑩=𝑫 
+𝒂𝒕 𝒙=𝟎     𝒅𝝍 𝑰(𝒙=𝟎)=𝒅𝝍 𝑰𝑰(𝒙=𝟎) 𝒈𝒊𝒗𝒆𝒔  (𝑨−𝑩)𝒌𝑰=𝑫𝒌𝑰𝑰 
+Solving the simultaneous equations we get  𝑫=𝟐𝑨∗(𝒌𝑰
+𝒌𝑰 𝒂𝒏𝒅   𝒌𝑰𝑰) 
+𝑫=𝟐𝑨∗(𝒌𝑰
+𝒌𝑰+𝒌𝑰𝑰) and   𝑩=𝑨∗(𝒌𝑰− 𝒌𝑰𝑰
+𝒌𝑰+𝒌𝑰𝑰) 
+It is seen that the coefficient B of the reflected component is non zero  implying that there is a small 
+probability  of reflection at x=0 even if the energy of the particle is greater than the potential step V o. 
+The flux of incident particles is given by     𝝍𝟏∗𝝍𝟏×𝒗𝟏= 𝑨∗𝑨 𝒗𝟏   
+The reflection coefficient can be written as 𝑹= 𝒓𝒆𝒇𝒍𝒆𝒄𝒕𝒆𝒅  𝒇𝒍𝒖𝒙
+𝒊𝒏𝒄𝒊𝒅𝒆𝒏𝒕  𝒇𝒍𝒖𝒙 =𝑩∗𝑩 𝒗𝟏
+𝑨∗𝑨 𝒗𝟏= (𝒌𝑰− 𝒌𝑰𝑰
+𝒌𝑰+𝒌𝑰𝑰)2
+  
+and the transmission coefficient 𝑻= 𝒕𝒓𝒂𝒏𝒔𝒎𝒊𝒕𝒕𝒆𝒅  𝒇𝒍𝒖𝒙
+𝒊𝒏𝒄𝒊𝒅𝒆𝒏𝒕  𝒇𝒍𝒖𝒙 =𝑫∗𝑫 𝒗𝑰𝑰
+𝑨∗𝑨 𝒗𝑰  where 𝒗𝑰 and 𝒗𝑰𝑰 are the velocities of 
+the particles in the two regions.  
+Thus, the transmission co -efficient T = (𝟒𝒌𝑰.𝒌𝑰𝑰
+𝒌𝑰+𝒌𝑰𝑰)=𝟒√𝑬.(𝑬−𝑽𝒐)
+(√𝑬+√𝑬−𝑽𝒐 )𝟐 
+It is observed that R+T = 1, i.e. the flux incident has to be partially reflected and partially transmitted.  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+7 Department of Science and Humanities - Physics                                       
+ 
+R and T are the relative probabilities of reflection and transmission at the potential step.  
+ 
+Case II  Energy of the particle < V o. 
+In region I the behavior of the particle is the same at the previous case (since V=0) and the wave 
+function will be  
+𝜓1=𝐴𝑒𝑖𝑘1𝑥 +𝐵𝑒−𝑖𝑘1𝑥 
+If the energy E of the particle is lesser than the energy of the potential step  (E<Vo), then  the 
+Schrödinger’s wave equation for the region II can be written as   
+  𝝏𝟐𝝍𝟐
+𝝏𝒙𝟐−𝟐𝒎
+ℏ𝟐(𝑽𝒐−𝑬)𝝍𝟐=𝟎  
+with the solution being    𝝍𝟐=𝑭𝒆−𝜶𝒙+𝐺𝒆𝜶𝒙   where 𝜶=√𝟐𝒎(𝑽𝒐−𝑬)
+ℏ𝟐 
+The second part of the wave function 𝐺𝒆𝜶𝒙 , makes   𝝍𝟐 infinite for large values 
+of x and hence cannot be part of the wave function.  Setting  the coefficient G to 
+be zero the wave function reduces to  
+𝝍𝟐=𝑭𝒆−𝜶𝒙  
+The wave function  has a finite value and decays exponentia lly in region II.  
+Thus there exists a finite probability  for the particle to be found in region II 
+( 𝑠𝑖𝑛𝑐𝑒   𝝍𝟐∗𝝍𝟐 𝑖𝑠 𝑛𝑜𝑛  𝑧𝑒𝑟𝑜 )  which i s unlike the classical solution . 
+(In an exponential decay the wave function is significant till it decays to  1
+𝑒  of the  value at x=0. At x=0 
+the value of the function   𝝍𝟐=𝑭. The changes in this function  𝝍𝟐=𝑭𝒆−𝜶𝒙 become insignificant at 
+some   ∆𝒙.  
+The function  evaluated at  ∆𝒙  gives   𝝍𝟐(∆𝒙)=𝑭𝒆−𝜶∆𝒙=𝑭∗𝟏
+𝒆=𝑭∗𝒆−𝟏. 
+This implies   𝜶∗∆𝒙=𝟏  or  ∆𝒙=𝟏
+𝜶=ℏ
+√𝟐𝒎(𝑽𝒐−𝑬) ).  
+The wave function becomes insignificant  at a distance  ∆𝒙=ℏ
+√𝟐𝒎(𝑽𝒐−𝑬)  which is the penetration depth 
+in region II.  The penetration depth increases as the energy of the particle increases.  
+In the second region the kinetic energy of the particle is negative which implies that the particle 
+cannot physically exist in the second region.   
+We conclude that when a particle ( or beam of particles with identical E) is incident on a potential step, 
+there is a quantum mechanical effect which - 
+• the particle can be reflected back even if the energy of the particle E > V o. 
+• the particle can have a small but finite probability of being  in the second region even if E<V o. 
+Problem no. 3 -  Potential Barrier        
+The potential barrier is a region in space where the potential is a constant V o for all 0<x< L and  V=0 
+for the all x<0 and x> L Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+8 Department of Science and Humanities - Physics                                       
+ 
+A particle  of mass m and  energy E < V o, incident on the potential barrier is represented by a forward 
+moving wave.  Since E < Vo classically  we expect the particle to be reflected back at the potential 
+barrier  and there is no probability of finding the particle in the region beyond the barrier . 
+In region I with V=0 the Schrödinger’s  wave equation becomes   𝝏𝟐𝝍𝑰
+𝝏𝒙𝟐+𝟐𝒎
+ℏ𝟐𝑬𝝍𝑰=𝟎               (1)  
+The solution of the equation in region I is given by  
+𝝍𝑰=𝑨𝒆𝒊𝒌𝟏𝒙 +𝑩𝒆−𝒊𝒌𝟏𝒙                                              (2) 
+where 𝑘𝐼=√2𝑚𝐸
+ℏ2 and the debroglie wavelength  𝜆𝐼=ℎ
+√2𝑚𝐸 
+The first term in equation 2 represents the incident wave and the second term represents the 
+reflected component.  
+In region II  since E< VO,    the Schrödinger’s wave equation for the region II can be written as   
+ 𝝏𝟐𝝍𝑰𝑰
+𝝏𝒙𝟐−𝟐𝒎
+ℏ𝟐(𝑽𝒐−𝑬)𝝍𝑰𝑰=𝟎                                                    (3) 
+with the solution being    𝝍𝑰𝑰=𝑫𝒆−𝜶𝒙   where 𝜶=√𝟐𝒎(𝑽𝒐−𝑬)
+ℏ𝟐      (4) 
+In region II the nature of the wave  function changes to an exponential ly decaying function .   The 
+penetration depth is given by ∆𝑥=ℏ
+√2𝑚(𝑉𝑜−𝐸)         (5)                                                                                                                                    
+And in region III, the potential being 0 , the  wave equation is   
+𝜕2𝝍𝑰𝑰𝑰
+𝜕𝑥2+2𝑚
+ℏ2𝐸𝝍𝑰𝑰𝑰=0 
+and the wave function is given by   𝝍𝑰𝑰𝑰=𝑮𝒆𝒊𝒌𝑰𝑰𝑰𝒙        (6) 
+where 𝒌𝑰𝑰𝑰=√𝟐𝒎𝑬
+ℏ𝟐 and the debroglie wavelength  𝝀𝑰𝑰𝑰=𝒉
+√𝟐𝒎𝑬 
+The amplitude of the reflected and transmitted wave s can be evaluated in terms of the incident 
+amplitude by applying the boundary conditions  
+              𝜓𝐼=𝝍𝑰𝑰 𝑎𝑡 𝑥=0       𝑎𝑛𝑑       𝝍𝑰𝑰= 𝝍𝑰𝑰𝑰   𝑎𝑡 𝑥=𝐿 
+and      𝑑𝜓𝐼
+𝑑𝑥=𝑑𝝍𝑰𝑰
+𝑑𝑥  𝑎𝑡 𝑥=0    𝑎𝑛𝑑       𝑑𝝍𝑰𝑰
+𝑑𝑥= 𝑑𝝍𝑰𝑰𝑰
+𝑑𝑥   𝑎𝑡 𝑥=𝐿 
+The transmission coefficient  which  gives the probability of the particles 
+being transferred to the third region can be estimated as   𝑻=
+ 𝒕𝒓𝒂𝒏𝒔𝒎𝒊𝒕𝒕𝒆𝒅  𝒇𝒍𝒖𝒙
+𝒊𝒏𝒄𝒊𝒅𝒆𝒏𝒕  𝒇𝒍𝒖𝒙 =𝑮∗𝑮 𝒗𝟑
+𝑨∗𝑨 𝒗𝟏      
+where v1 and v3 are the velocities of the particle in region I and III.   Since 
+the energy of the particle is the same in the two regions the velocities are 
+also same and   
+the transmission coefficient can be evaluated approximately as  
+  𝑻 =𝑮∗𝑮 
+𝑨∗𝑨 ≈ 𝟏𝟔𝑬
+𝑽𝒐[𝟏−𝑬
+𝑽𝒐] 𝒆−𝟐𝜶𝑳≅  𝒆−𝟐𝜶𝑳   
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+9 Department of Science and Humanities - Physics                                       
+ 
+Thus the probability  of transmission is more if  either 𝜶 or a is small . Smaller  𝜶 implies smaller   (𝑉𝑜−
+𝐸). Thus particles with higher energy have higher  transmission  probability through the barrier .  
+If the width of the barrier L is less than the penetration depth ∆𝒙  then there is a finite probability 
+that the particle is transmitted across the barrier . 
+This process of transmission through a potential barrier even when the energy of the particle is lesser 
+than the barrier potential is known as barrier tunneling  or the quantum mechanical tunneling . 
+It is also noted that for all values of E, there is always a reflected component which is given by  R =  1 
+– T which is higher than the transmitted coefficient.  
+[The particle in the second region has a negative Kinetic energy and this is not a physical reality.  
+However, the particle can exchange energies with the field (potential) without violating the uncertainty 
+principle   ∆𝐸.∆𝑡 =ℎ
+4𝜋.  Thus the energy exchange  has to happen  in a time interval of   ∆𝑡 =ℎ
+4𝜋∆𝐸. This 
+gives a time interval which is extremely small of the order of femto seconds. Thus , the particle has to 
+cross the barrier almost instantaneously]      
+Radioactive alpha decay as a case of barrier tunneling  
+Emission of alpha  particles ( Helium nuclei ) in the decay of 
+radioactive elements  can be  example of tunneling . 
+The positive charge on the nucleus creates a nonlinear  potential  
+barrier around the nucleus . This potential barrier is estimated to 
+be as high as 20MeV at the surface.  
+In the radioactive α decay of the nucleus , two  protons and two 
+neutrons are emitted as  a single entity  (a doubly charged He 
+nucleus). The process of radioactive  decay of α particles  with 
+low energies compared to the barrier potential could be 
+explained as a case of barrier tunneling.  
+The potential which varies inversely as the distance from  the surface 
+of the nucleus can be approximated to a triangular potential. This 
+can then be modeled as a series of rectangular potentials of thin 
+slices of thickness   ∆𝑟. The potential barrier for each of these slices 
+decrease by a small   ∆𝑉, which gives  𝜶𝒏=√𝟐𝒎(𝑽𝒏−𝑬)
+ℏ𝟐 
+The transmission coefficients for each of the slice of potential barrier 
+can be evaluated  with  𝑻𝒏=𝒆−𝟐𝜶𝒏∆𝒓  and the total transmission 
+probability is the product of all these individual transmission 
+probabilities. This gives a reasonable  
+estimate  of the tunneling probabilities  of alpha particles.   
+Tunneling rate is very sensitive to s mall changes in energy and  size of the nucleus and account  for 
+the wide range of decay times  to different radioactive  nuclei.   
+Taking t he alpha particles to be in a state of constant motion with a very high kinetic energy, the 
+frequency of approach to the nuclear surface can be est imated to be the diameter of the nucleus 
+divided by the velocity of the particles. This frequency when multiplied by the transmission co -efficient 
+gives us the probability that an alpha particle is emitted out of the nucleus.  The inverse of this 
+probabili ty is then the mean lifetime  for alpha decay of the radioactive nucleus.   
+ 
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+10 Department of Science and Humanities - Physics                                       
+ 
+Problem no. 4 -  Particle in a Box with infinite potentials at the walls  
+A particle  with mass m and energy E is confined in a one dimensional box  with infinite potential at the 
+boundaries. Defining the b oundaries to be   𝑥=−𝑎
+2 𝑎𝑛𝑑  𝑥=+𝑎
+2 where the potential tends to infinity. 
+The particle is confined to the region  −𝑎
+2< 𝑥<+𝑎
+2  and cannot be found  in regions outside the 
+boundar ies 𝑥<−𝑎
+2  and   𝑥>𝑎
+2.  The potential inside the region −𝑎
+2< 𝑥<+𝑎
+2   is V=0.  
+The Schrödinger’s wave equation    𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2(𝐸−𝑉)𝜓=0     
+in the region within the well V=0 this becomes  
+ 𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2𝐸𝜓=0  
+𝜕2𝜓
+𝜕𝑥2+𝑘2𝜓=0 where 𝑘=√2𝑚𝐸
+ℏ2 
+The solution of the equation in region −𝑎
+2<𝑥<𝑎
+2  is given by  
+𝝍(𝒙)=𝑨𝒔𝒊𝒏(𝒌𝒙)+𝑩𝒄𝒐𝒔(𝒌𝒙) 
+Applying the boundary condition that  𝝍=𝟎 𝒂𝒕 𝒙=−𝒂
+𝟐 𝒂𝒏𝒅  𝒙=𝒂
+𝟐   
+At   𝑥=−𝑎
+2   𝜓(𝑥=−𝑎
+2)=𝐴𝑠𝑖𝑛 (−𝑘𝑎
+2)+𝐵𝑐𝑜𝑠 (𝑘𝑎
+2)= 0  𝑔𝑖𝑣𝑒𝑠   
+−𝐴𝑠𝑖𝑛 (𝑘𝑎
+2)+𝐵𝑐𝑜𝑠 (𝑘𝑎
+2)= 0        [1] 
+At   𝑥=𝑎
+2   𝜓(𝑥=𝑎
+2)=𝐴𝑠𝑖𝑛 (𝑘𝑎
+2)+𝐵𝑐𝑜𝑠 (𝑘𝑎
+2)= 0  𝑔𝑖𝑣𝑒𝑠   
+𝐴𝑠𝑖𝑛 (𝑘𝑎
+2)+𝐵𝑐𝑜𝑠 (𝑘𝑎
+2)= 0         [2] 
+The two conditions imply that (since sine and cosine functions cannot be zero at the same time) if 
+𝑨=𝟎 𝒕𝒉𝒆𝒏  𝑩≠𝟎   and  𝒊𝒇 𝑨≠𝟎 𝒕𝒉𝒆𝒏   𝑩=𝟎 since when 𝑠𝑖𝑛(𝑘𝑎
+2)=0,𝑐𝑜𝑠(𝑘𝑎
+2)≠0 𝑎𝑛𝑑  𝑣𝑖𝑐𝑒  𝑣𝑒𝑟𝑠𝑎 . 
+Taking the first condition that  𝐴=0 𝑎𝑛𝑑  𝐵≠0 implies that when   
+𝒄𝒐𝒔 (𝒌𝒂
+𝟐)= 𝟎,    𝒌𝒂
+𝟐=(𝟐𝑵−𝟏)𝝅
+𝟐 𝒐𝒓  𝒌=(𝟐𝑵−𝟏)𝝅
+𝒂 n odd multiple of 𝝅
+𝒂  ) 
+The second condition  𝐵=0 𝑡ℎ𝑒𝑛 𝐴≠0   which implies that  
+𝒔𝒊𝒏 (𝒌𝒂
+𝟐)= 𝟎  𝒐𝒓 𝒌𝒂
+𝟐=𝑵𝝅  𝒐𝒓  𝒌=𝟐𝑵𝝅
+𝒂 (an even multiple of 𝝅
+𝒂  ) 
+The above two conditions can be combined and generalized to give t he allowed values of the 
+propagation constant ( wave number )  
+𝒌=𝒏𝝅
+𝒂 𝑤𝑖𝑡ℎ 𝐧 = 𝟏,𝟐,𝟑….  
+The wave function then reduces to   
+𝝍(𝒙)=𝑨 𝒄𝒐𝒔(𝒌𝒙)   𝒇𝒐𝒓  𝒏 𝒐𝒅𝒅   𝒂𝒏𝒅 
+𝝍(𝒙)=𝑨𝒔𝒊𝒏(𝒌𝒙)    𝒇𝒐𝒓  𝒏 𝒆𝒗𝒆𝒏     
+The allowed values of k give  the allowed states with energy 𝑬𝒏= 𝒉𝟐𝒏𝟐
+𝟖𝒎𝒂𝟐   
+The wave functions can be normalized for the individual states to give the constants A and B.  
+The constant A can be evaluated by normalizing the wave function ie., integrating the function 
+between limits of −𝑎
+2 𝑎𝑛𝑑  𝑎
+2     ∫𝜓∗𝜓𝑑𝑥 =1 
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+11 Department of Science and Humanities - Physics                                       
+ 
+∫ [𝐴𝑠𝑖𝑛 (𝑛𝜋
+𝑎𝑥)]2𝑎2⁄
+−𝑎2⁄𝑑𝑥=𝐴2
+2 ∫ [1−cos(2𝑛𝜋
+𝑎𝑥)]𝑎2⁄
+−𝑎2⁄𝑑𝑥 
+This on integration gives    𝐴2
+2 [𝑥−𝐿
+2𝑛𝜋sin(2𝑛𝜋
+𝑎𝑥)]−𝑎2⁄𝑎2⁄
+= 𝐴2
+2 [𝑎−0]=1 
+This gives a value of 𝐴=√2
+𝑎 
+The exact form of the wave function becomes  
+𝝍𝒏(𝒙)=√𝟐
+𝒂𝐜𝐨𝐬 (𝒏𝝅
+𝒂𝒙)  𝒇𝒐𝒓  𝒏 𝒐𝒅𝒅           (even parity)  
+𝝍𝒏(𝒙)=√𝟐
+𝒂𝐬𝐢𝐧(𝒏𝝅
+𝒂𝒙)    𝒇𝒐𝒓  𝒏 𝒆𝒗𝒆𝒏         (odd parity)  
+[Parity  of a function is determined by ch anging the sign of the variable.  If the function remains 
+unchanged then it is defined as an even parity functions  and if the function changes sign then it is an 
+odd parity function.   
+𝐼𝑓 𝜓(−𝑥)=𝜓(𝑥) 𝑡ℎ𝑒𝑛 𝑡ℎ𝑒 𝑓𝑢𝑛𝑐𝑡𝑖𝑜𝑛  ℎ𝑎𝑠 𝑎𝑛 𝑒𝑣𝑒𝑛  𝑝𝑎𝑟𝑖𝑡𝑦  𝑎𝑛𝑑 
+ 𝑖𝑓  𝜓(−𝑥)=−𝜓(𝑥) 𝑡ℎ𝑒𝑛 𝑡ℎ𝑒 𝑓𝑢𝑛𝑐𝑡𝑖𝑜𝑛  ℎ𝑎𝑠 𝑎𝑛 𝑜𝑑𝑑  𝑝𝑎𝑟𝑖𝑡𝑦 .] 
+Eigen functions and Eigen values  
+Eigen functions are exact wave functions which represent the state of the system completely. Eigen 
+functions are exact solutions of the Schrodinger’s wave equation.  
+The even parity Eigen function of a particle in a infinite poten tial well 𝜓𝑛=√2
+𝑎cos(𝑛𝜋
+𝑎𝑥)   and odd 
+parity Eigen function of a particle in a infinite potential well 𝜓𝑛=√2
+𝑎sin(𝑛𝜋𝑥
+𝑎) 
+The first three states correspond to n=1,2 and 3  
+The Eigen functions are  
+ 𝜓1=√2
+𝑎cos(𝜋𝑥
+𝑎)    
+ 𝜓2=√2
+𝑎sin(2𝜋𝑥
+𝑎)     
+ 𝜓3=√2
+𝑎cos(3𝜋𝑥
+𝑎) 
+ 
+Eigen values of the system are the exact values of the physical parameters of the system obtained 
+from an Eigen function using operators.  
+The Eigen energy values is given function 𝐸𝑛=ℎ2𝑛2
+8𝑚𝐿2  where n = 1,2 3…  
+And the Eigen values are 𝐸1=ℎ2
+8𝑚𝑎2      𝐸2=ℎ222
+8𝑚𝑎2      𝐸3=ℎ232
+8𝑚𝑎2 Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+12 Department of Science and Humanities - Physics                                       
+ 
+ 
+ 
+Probability density 𝜓∗𝜓 for the first three states is obtained by squaring the corresponding wave 
+functions  𝜓𝑛=√2
+𝑎sin(𝑛𝜋𝑥
+𝑎)  or 𝜓𝑛=√2
+𝑎cos(𝑛𝜋𝑥
+𝑎)  .  The square of the function is close to a gaussian 
+shape.   
+In the first state n=1, the probability of finding the particle is maximum at  𝑥= 0  and the area under 
+the curve represents the total probability of finding the particle in the ground state which is 1.00  
+In the second state n=2, the probability of finding the particle is maximum at  𝑥=−𝑎4⁄  and 𝑥=
+ +𝑎4⁄ .The area under one segment  of the curve represents the probability of finding the particle in 
+the first excited state and is 12⁄=0.5.   
+In the third state n=3,the probability of finding the particle is maximum at   𝑥=−𝑎3⁄,𝑥=0  and  𝑥=
++𝑎3⁄ .The area under one segment of the curve represents the probability of finding the particle in 
+the first excited state and is 13⁄=0.333.   
+In general, the probability of finding the particle in the nth state, in a segment of length   𝑎𝑛 ⁄ 𝑖𝑠  1𝑛⁄. 
+The probability of finding the particle between two limits in the well is given be the expression  
+ 𝑃=∫[𝐴𝑐𝑜𝑠 (𝑛𝜋
+𝑎𝑥)]2𝑥2
+𝑥1𝑑𝑥  𝑜𝑟 ∫[𝐴𝑠𝑖𝑛(𝑛𝜋
+𝑎𝑥)]2𝑥2
+𝑥1𝑑𝑥   , depending on the whether the state n is odd or 
+even. Note that this probability will be less than 1 if the limits are not  the boundaries of the well.  
+The Eigen  values of the momentum and the 𝒑𝒏=ℏ𝒌=𝒏𝒉
+𝟐𝒂 
+Particle in a 2D well of infinite potential at the boundaries  
+A particle in a two dimensional well has two degrees of freedom and can 
+move in XY plane.  This can be treated as a case of particle confined in 
+a well with infinite potentials at the boundaries of the x and y directio ns. 
+The momentum P of a particle moving in the x y plane  can be resolved 
+into two independent momentum  components Px and Py along the x and 
+y directions.   
+The problem can be analyzed  as two independent problems for the x 
+and y directions and the solutions would be similar to the one 
+dimensional infinite potential well problem.   
+The   Schrodinger’s equation can be written as  𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2𝐸𝜓=0  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+13 Department of Science and Humanities - Physics                                       
+ 
+𝜕2𝜓
+𝜕𝑥2+𝑘𝑥2𝜓=0 where 𝑘𝑥=√2𝑚𝐸𝑥
+ℏ2 and the solutions to this are  
+The eige n functions for the x direction  
+𝜓𝒏𝒙(𝑥)=√2
+𝑎cos(𝑛𝑥𝜋
+𝑎𝑥)  𝑓𝑜𝑟 𝑛𝑥 𝑜𝑑𝑑           (even parity)  
+𝜓𝒏𝒙(𝑥)=√2
+𝑎sin(𝑛𝑥𝜋
+𝑎𝑥)    𝑓𝑜𝑟 𝑛𝑥 𝑒𝑣𝑒𝑛       (odd parity)  
+with the eigen values for energy as 𝐸𝑥=ℎ2𝑛𝑥2
+8𝑚𝐿2 where nx can take values 1,2,3,4,5….  
+The particle’s movement in the y direction c an be analysed similarly.  
+The   Schrodinger’s equation can be written as  𝝏𝟐𝝍
+𝝏𝒚𝟐+𝟐𝒎
+ℏ𝟐𝑬𝝍 =𝟎  
+𝜕2𝜓
+𝜕𝑦2+𝑘2𝜓=0 where 𝑘𝑦=√2𝑚𝐸𝑦
+ℏ2 and the solutions to this are  
+The eigen function s for the y direction  
+𝜓𝑛𝑦(𝑦)=√2
+𝑎cos(𝑛𝑦𝜋
+𝑎𝑦)  𝑓𝑜𝑟 𝑛𝑦 𝑜𝑑𝑑           (even parity)  
+𝜓𝑛𝑦(𝑦)=√2
+𝑎sin(𝑛𝑦𝜋
+𝑎𝑦)    𝑓𝑜𝑟 𝑛𝑦 𝑒𝑣𝑒𝑛      (odd parity)  
+with the eigen values for energy as 𝐸𝑦=ℎ2𝑛𝑦2
+8𝑚𝐿2 where 𝑛𝑦 can take values 1,2,3,4,5….  
+The total energy of the system is then 𝐸𝑛=𝐸𝑥+𝐸𝑦=ℎ2𝑛𝑥2
+8𝑚𝐿2+ℎ2𝑛𝑦2
+8𝑚𝐿2=ℎ2
+8𝑚𝐿2(𝑛𝑥2+𝑛𝑦2) 
+The allowed energy states of the particle are then decided by the allowed values of nx and ny. 
+The first allowed state is the ground state of the system and given by 𝐸11=2ℎ2
+8𝑚𝐿2=2𝐸𝑜 where  𝐸𝑜=
+ℎ2
+8𝑚𝐿2.  
+The second allowed state of the system is given by 𝐸21=5𝐸𝑜 which is also the energy of the 
+state   𝐸12.  The re are two allowed states for the same energy value of  5𝐸𝑜.  This state is then doubly 
+degenerate.  
+In general , for a 2D system in when 𝑛 𝑥= 𝑛𝑦 the energy state is a single  state and when 𝑛 𝑥≠ 𝑛𝑦 
+the energy state has a degeneracy factor of 2.   
+The separation between energy states does not increase monotonically as in the 1D system . 
+The wave functions of the corresponding states can be written as  
+𝜓11=2
+𝑎cos(𝜋
+𝑎𝑥)  cos(𝜋
+𝑎𝑦)   for the first allowed state with 𝑛 𝑥= 𝑛𝑦=1 
+𝜓21=2
+𝑎sin(2𝜋
+𝑎𝑥)  cos(𝜋
+𝑎𝑦)   for the second allowed state with 𝑛 𝑥=2 𝑎𝑛𝑑   𝑛𝑦=1 
+𝜓12=2
+𝑎cos(𝜋
+𝑎𝑥)  sin(2𝜋
+𝑎𝑦)   for the  allowed state with 𝑛 𝑥=1 𝑎𝑛𝑑   𝑛𝑦=2 
+From the wave functions we realize that the two states are different but has the energy eigen value of 
+5Eo. Such  states are referred to as degenerate states.  
+ 
+ Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+14 Department of Science and Humanities - Physics                                       
+ 
+Particle in a 3D Box of infinite potential at the boundaries  
+A particle in a three dimensional well has three degrees of freedom and can move in 3D space.  This 
+can be treated as a case of particle con fined in a box of sides L with infinite potentials at the 
+boundaries of the x, y and z directions. The momentum P of a pa rticle moving in space can be 
+resolved into three independent momentum components Px, Py and Pz along the coordinate axes.   
+This problem can be analysed as three independent problems for the x, y  and z directions and the 
+individual solutions will b e similar to the one dimensional infinite potential well problem.  
+The   Schrodinger’s equation can be written as  𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2𝐸𝜓=0  
+𝜕2𝜓
+𝜕𝑥2+𝑘2𝜓=0 where 𝑘𝑥=√2𝑚𝐸𝑥
+ℏ2 and the solutions to this are  
+The eigen function for the x directions  
+𝜓𝑛(𝑥)=√2
+𝑎cos(𝑛𝑥𝜋
+𝑎𝑥)  𝑓𝑜𝑟 𝑛𝑥 𝑜𝑑𝑑           (even parity)  
+𝜓𝑛(𝑥)=√2
+𝑎sin(𝑛𝑥𝜋
+𝑎𝑥)    𝑓𝑜𝑟 𝑛𝑥 𝑒𝑣𝑒𝑛        (odd parity)  
+with the eigen values for energy as 𝐸𝑥=ℎ2𝑛𝑥2
+8𝑚𝐿2 where nx can take values 1,2,3,4,5….  
+The particle’s movement in the y direction can be analysed.  
+The   Schrodinger’s equation can be written as  𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2𝐸𝜓=0  
+𝜕2𝜓
+𝜕𝑦2+𝑘2𝜓=0 where 𝑘𝑦=√2𝑚𝐸𝑦
+ℏ2 and the solutions to this are  
+The eigen function for the y directions  
+𝜓𝑛(𝑦)=√2
+𝑎cos(𝑛𝑦𝜋
+𝑎𝑦)  𝑓𝑜𝑟 𝑛𝑦 𝑜𝑑𝑑           (even  parity)  
+𝜓𝑛(𝑦)=√2
+𝑎sin(𝑛𝑦𝜋
+𝑎𝑦)    𝑓𝑜𝑟 𝑛𝑦 𝑒𝑣𝑒𝑛        (odd parity)  
+with the eigen values for energy as 𝐸𝑦=ℎ2𝑛𝑦2
+8𝑚𝐿2 where 𝑛𝑦 can take values 1,2,3,4,5….  
+The particle’s movement in the z direction can be analysed.  
+The   Schrodinger’s equation can be written as  𝜕2𝜓
+𝜕𝑧2+2𝑚
+ℏ2𝐸𝜓=0  
+𝜕2𝜓
+𝜕𝑦2+𝑘𝑧2𝜓=0 where 𝑘𝑧=√2𝑚𝐸𝑧
+ℏ2 and the solutions to this are  
+The eigen function s for the  z direction  
+𝜓𝑛(𝑧)=√2
+𝑎cos(𝑛𝑧𝜋
+𝑎𝑦)  𝑓𝑜𝑟 𝑛𝑧 𝑜𝑑𝑑           (even  parity)  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+15 Department of Science and Humanities - Physics                                       
+ 
+𝜓𝑛(𝑧)=√2
+𝑎sin(𝑛𝑧𝜋
+𝑎𝑦)    𝑓𝑜𝑟 𝑛𝑧 𝑒𝑣𝑒𝑛        (odd parity)  
+with the eigen values for energy as 𝐸𝑦=ℎ2𝑛𝑦2
+8𝑚𝑎2 where 𝑛𝑦 can take values 1,2,3,4,5….  
+The total energy of the system is then  
+𝐸𝑛=𝐸𝑥+𝐸𝑦+𝐸𝑧=ℎ2𝑛𝑥2
+8𝑚𝑎2+ℎ2𝑛𝑦2
+8𝑚𝑎2+ℎ2𝑛𝑧2
+8𝑚𝑎2=ℎ2
+8𝑚𝑎2(𝑛𝑥2+𝑛𝑦2+𝑛𝑧2) 
+The allowed energy states of the particle are then decided by the allowed values of nx, ny and n z. 
+The first allowed state is the ground state of the system  and has an energy  
+𝐸111=3ℎ2
+8𝑚𝑎2=3𝐸𝑜 where  𝐸𝑜=ℎ2
+8𝑚𝑎2.  
+The second allowed state of the system is given by 𝐸211=6𝐸𝑜 which is also the energy of the 
+state   𝐸121𝑎𝑛𝑑  𝐸123.  There are t hree allowed states for the same energy value of  6𝐸𝑜.  This state is 
+then triply  degenerate.    
+The analysis of the first few states reveal that the states are non degenerate when   𝑛 𝑥= 𝑛𝑦=𝑛𝑧 . 
+The states have a degeneracy factor of 3 whenever two of the numbers 𝑛 𝑥,   𝑛𝑦 𝑎𝑛𝑑   𝑛𝑧   are equal 
+and not equal to the third.  
+When all the three numbers 𝑛 𝑥 ,𝑛𝑦 𝑎𝑛𝑑  𝑛𝑧    are unequal then  the energy state would have a 
+degeneracy of 6.  
+Further t he separation between energy states does not increase monotonically as in the 1D system . 
+The wave functions of the corresponding states can be written as  
+for the first allowed state with 𝑛 𝑥=1 ,𝑛𝑦=1  𝑎𝑛𝑑  𝑛𝑧=1   
+𝜓111=(2
+𝑎)3
+2cos(𝜋
+𝑎𝑥)  cos(𝜋
+𝑎𝑦) cos(𝜋
+𝑎𝑧)     
+ the second allowed state with 𝑛 𝑥=2 ,𝑛𝑦=1  𝑎𝑛𝑑  𝑛𝑧=1 
+𝜓211=(2
+𝑎)3
+2sin(2𝜋
+𝑎𝑥)  cos(𝜋
+𝑎𝑦) cos(𝜋
+𝑎𝑧)     
+the allowed  state with 𝑛 𝑥=1 ,𝑛𝑦=2  𝑎𝑛𝑑  𝑛𝑧=1 
+𝜓121=2
+𝑎cos(𝜋
+𝑎𝑥)  sin(2𝜋
+𝑎𝑦) cos(𝜋
+𝑎𝑧)      
+for the  allowed state with 𝑛 𝑥=1 ,𝑛𝑦=1  𝑎𝑛𝑑  𝑛𝑧=2 
+𝜓112=(2
+𝑎)3
+2cos(𝜋
+𝑎𝑥)  sin(2𝜋
+𝑎𝑦)sin(𝑛𝑧𝜋
+𝑎𝑧)    
+From the wave functions we realize that the t hree states are different but has the energy Eigen  value 
+of 6Eo. 
+ 
+ 
+ 
+ Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+16 Department of Science and Humanities - Physics                                       
+ 
+Problem no. 5 -  Finite potential well  
+The finite potential well is a closer approximation to real potentials in 
+solids .  The particle can be confined to a region with constant potential 
+VO at the walls   |𝑥|>𝐿
+2 .. Inside the potential well region of –L/2 to +L/2 
+the potential is zero.   In this case the SWE for the three regions can be 
+solved to get the nature of the wave functions . 
+However,  these do not result in  an exact solution and approximation  
+methods are used.   The nature of the wave  functions  in the  three 
+regions can be written as  
+𝝍𝟏=𝑫𝒆𝜶𝒙   where 𝜶=√𝟐𝒎(𝑽𝒐−𝑬)
+ℏ𝟐  for the region x<   −𝐿2⁄ 
+𝝍𝟐≅𝑨𝐜𝐨𝐬(𝒌𝟐𝒙) 𝑓𝑜𝑟 𝑜𝑑𝑑  𝑣𝑎𝑙𝑢𝑒𝑠  𝑜𝑓 𝑛      or  
+𝝍𝟐=𝑨𝐬𝐢𝐧(𝒌𝟐𝒙) for even  values  of n   where  𝑘2=√2𝑚𝐸
+ℏ2  for the region 
+−𝐿2⁄<𝑥<𝐿2⁄ 
+The cosine solutions  show  even parity (symmetric when sign of the 
+function becomes negative ) and  the sine solutions e xhibit  odd parity  (anti 
+symmetric when sign of the function becomes negative) . However, it is to 
+be noted that the wave function 𝝍𝟐 would not be zero at the boundaries of 
+−𝐿
+2 𝑎𝑛𝑑 +𝐿
+2. 
+𝝍𝟑=𝑮𝒆−𝜶𝒙   where 𝛼=√2𝑚(𝑉𝑜−𝐸)
+ℏ2  for the region x  >   𝐿2⁄ 
+The continuity of the wave functions and their derivatives at the boundaries −𝐿
+2 𝑎𝑛𝑑 +𝐿
+2 gives the 
+condition s  
+𝜶=𝒌𝐭𝐚𝐧(𝒌𝑳
+𝟐) or  √(𝑽𝒐−𝑬)=√𝐄 𝐭𝐚𝐧 (√𝟐𝒎𝑬
+ℏ𝟐∗𝑳
+𝟐) for 
+n=1 
+and  
+𝜶=−𝒌𝐜𝐨𝐭(𝒌𝑳
+𝟐) or  √(𝑽𝒐−𝑬)=−√𝐄 𝐜𝐨𝐭(√𝟐𝒎𝑬
+ℏ𝟐∗𝑳
+𝟐) 
+for n=2  
+It can be seen that the right-hand  side and left-hand  
+side of the equations contain the same variable E and 
+the nature of  variations of  the functions on either sides 
+are quite different and hence an exact solution do not 
+exist.  (Equations of this type are  called transcendental 
+equations.)  
+The energy values of the particle inside the well region can be found from graphical or approximate 
+methods.  The variation of the left-hand  side and the right-hand  side could be plotted on the same 
+graph as a function . The points of intersection of the LHS and RHS plots are the solutions as the 
+values of E satisfy both the equations.  
+Thus , the different energy states could be evaluated.     
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+17 Department of Science and Humanities - Physics                                       
+ 
+Since the particle is in t he finite potential well , at least one solution to the problem exists. Or one 
+energy state exists  for the particle in the finite potential well. The number of solutions would obviously 
+depend on the height of the finite potential V o.  
+From the expression for the energy of an infinite potential well we can write the energy of the particle 
+in a finite potential well as  
+𝑬𝒊𝒏𝒇𝒊𝒏𝒊𝒕𝒆 =ℏ𝟐𝝅𝟐𝒏𝟐
+𝟐𝒎𝑳𝟐=ℏ𝟐𝒏𝟐
+𝟐𝒎(𝒘𝒊𝒅𝒕𝒉  𝒐𝒇 𝒕𝒉𝒆 𝒘𝒆𝒍𝒍  𝒘𝒉𝒆𝒓𝒆  𝝍→𝟎)𝟐 
+In the case of the finite potential well we can define the effective width of the well as the points where 
+the wave function  becomes insignificant. Thus,  the effective width of the well is the width of the well 
+plus twice the penetration depth of the particle in that ene rgy state.   The penetration depths in the 
+regions of the potential V o is given by 𝚫𝒙= 𝒉
+√𝟐𝒎(𝑽𝒐−𝑬𝒙)  which is a function of Ex.  
+The effective width of the box (defined approx  as the points at the wave function becomes 
+insignificant of zero) is then larger and can be approximated as L+2 ∆𝑥 
+In the case of the finite potential well the energy of the particle can be written as  
+𝑬𝒇𝒊𝒏𝒊𝒕𝒆 =ℏ𝟐𝝅𝟐𝒏𝟐
+𝟐𝒎(𝒘𝒊𝒅𝒕 𝒉 𝒐𝒇 𝒕𝒉𝒆 𝒘𝒆𝒍𝒍  𝒘𝒉𝒆𝒓𝒆 𝝍→𝟎)𝟐=ℏ𝟐𝝅𝟐𝒏𝟐
+𝟐𝒎(𝑳+𝟐∆𝒙)𝟐 
+Hence the energy values are less than the energy values for the corresponding states of a n infinite 
+potential well of the width  L.  
+Problem no. 6 - Harmonic Oscillator  
+Harmonic oscillator is one of the most fundamental systems in quantum 
+mechanics which gives insight to a variety of problems such as the 
+vibrational molecular spectroscopy.   
+The classical harmonic oscillator is a bound particle subjected to oscillations 
+about a me an position.  However , a restoring force that is proportional to the 
+displacement of the particle from a mean position keeps the amplitude of the 
+oscillations within limits.   The force equation of such a system in classical 
+physics is 𝐅=𝐦𝐚 =𝐦 𝐝𝟐𝐱
+𝐝𝐭𝟐=−𝐤𝐱   where k is the force constant given by 
+mω2 where 𝛚=√𝐤
+𝐦   is the frequency of vibration and m is the mass of the 
+system.   
+The potential energy of the system is evaluated as  
+𝐕= −∫𝐅𝐝𝐱 = ∫𝐤𝐱𝐝𝐱  = 𝟏
+𝟐 𝐤𝐱𝟐 =𝟏
+𝟐 𝐦𝛚𝟐𝐱𝟐 . 
+Consider a diatomic molecule with the masses of the atoms as m 1 and 
+m2 bound by a bond that is springy in nature. This can be studied as a 
+spring mass system with spring constant (which basically depend on the 
+bond strength). In this case the effective mas s 𝛍 of the system will 
+decide the frequency of oscillations  𝛚=√𝐤
+𝛍 and the potential energy of the system can be written as 
+𝐕(𝒙)= 𝟏
+𝟐 𝝁𝝎𝟐𝒙𝟐 . 
+Using this form of the potential in the Hamiltonian 𝐇𝛙 we get  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+18 Department of Science and Humanities - Physics                                       
+ 
+−ℏ𝟐
+𝟐𝛍𝐝𝟐𝛙(𝐱)
+𝐝𝐱𝟐+𝐕𝛙(𝐱)= − ℏ𝟐
+𝟐𝛍𝐝𝟐𝛙(𝐱)
+𝐝𝐱𝟐+ 𝟏
+𝟐 𝛍𝛚𝟐𝐱𝟐= 𝐄𝛙(𝐱)  
+The Schrodinger wave equation can be written as  
+ 𝒅𝟐𝝍(𝒙)
+𝒅𝒙𝟐+𝟐𝝁
+ℏ𝟐( 𝑬−𝟏
+𝟐 𝝁𝝎𝟐𝒙𝟐)𝝍(𝒙)=𝟎 
+Notice the term 𝐄−𝟏
+𝟐 𝛍𝛚𝟐𝐱𝟐 is positive since V( x) cannot increase infinitely.  
+A solution to this can be attempted by substitu ting  𝛏= 𝛄𝐱    (𝜉 𝑖𝑠 𝑝𝑟𝑜𝑛𝑜𝑢𝑛𝑐𝑒𝑑  𝑎𝑠 𝑧𝑎𝑖)  and  𝛄=√𝝁𝝎
+ℏ 
+The eigen function  is of the form        𝛙𝒏(𝒙)= 𝐍𝐧𝐇𝐧(𝛄𝐱)𝐞−𝟏
+𝟐(𝛄𝐱)𝟐  
+where  n=0,1,2,3,4…    𝐍𝐧=√[𝛄
+𝟐𝐧𝐧!√𝛑]  and  
+𝐇𝐧(𝛏) are the Hermite polynomials described by  
+ 𝐇𝐧+𝟏(𝛏)=𝟐𝛏𝐇 𝐧(𝛏)−𝟐𝐧𝐇𝐧−𝟏(𝛏)  𝐟𝐨𝐫 𝐧≥𝟏  
+The first two terms of the Hermite polynomial are  𝐇𝟎(𝛏)=𝟏 and 𝐇𝟏(𝛏)=𝟐𝛏  which can be used to 
+find the successive terms.  
+𝝍𝟎(𝒙)= 𝑵𝟎𝑯𝟎(𝝃)𝒆−𝟏
+𝟐𝝃𝟐 =(𝝁𝝎
+𝝅ℏ)𝟏
+𝟒𝒆−𝟏
+𝟐𝝁𝝎
+ℏ𝒙𝟐 
+𝝍𝟏(𝒙)= 𝑵𝟏𝑯𝟏(𝝃)𝒆−𝟏
+𝟐𝝃𝟐 =√𝟐
+√𝝅.(𝝁𝝎
+𝝅ℏ)𝟑
+𝟒.𝒙.𝒆−𝟏
+𝟐𝝁𝝎
+ℏ𝒙𝟐 
+The solutions yield the Eigen energy values of the system as  
+ 𝐄𝐧=(𝐧+𝟏
+𝟐)ℏ𝛚 
+This gives the allowed energy states as  𝟏
+𝟐ℏ𝛚,𝟑
+𝟐ℏ𝛚,𝟓
+𝟐ℏ𝛚,……  
+Thus , the minimum energy state of the system is a non -zero  = 𝟏
+𝟐ℏ𝛚  
+where ω is the fundamental frequency of vibration.  The higher energy 
+states are then equally spaced at ℏω which is unlike the energy of 
+states in the particle in a box solution . 
+[To verify that the wave functions are solutions of the SWE, we can substitute 𝝍𝟎(𝒙)  and the 
+corresponding energy  𝐄𝐨=(𝟏
+𝟐)ℏ𝛚 in the  Schrodinger’s wave equation.  
+𝒅 
+𝒅𝒙{𝝍𝟎(𝒙)}=𝒅 
+𝒅𝒙 {(𝝁𝝎
+𝝅ℏ)𝟏
+𝟒𝒆−𝟏
+𝟐𝝁𝝎
+ℏ𝒙𝟐}= {−(𝝁𝝎
+𝝅ℏ)𝟏
+𝟒.𝝁𝝎
+ℏ𝒙𝒆−𝟏
+𝟐𝝁𝝎
+ℏ𝒙𝟐}=−𝝁𝝎
+ℏ𝒙𝝍𝟎(𝒙) 
+Differentiating once again      𝒅 
+𝒅𝒙[−𝝁𝝎
+ℏ𝒙𝝍𝟎(𝒙)]=−(𝝁𝝎
+𝝅ℏ) {𝝍𝟎(𝒙)−𝝁𝝎
+ℏ𝒙𝟐 𝝍𝟎(𝒙)} 
+Substituting this in the SWE gives  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+19 Department of Science and Humanities - Physics                                       
+ 
+ −(𝝁𝝎
+ℏ) {𝝍𝟎(𝒙)−𝝁𝝎
+ℏ𝒙𝟐 𝝍𝟎(𝒙)}+ 𝟐𝝁
+ℏ𝟐( (𝟏
+𝟐)ℏ𝛚−𝟏
+𝟐 𝝁𝝎𝟐𝒙𝟐)𝝍𝟎(𝒙)= 
+−(𝝁𝝎
+ℏ) 𝝍𝟎(𝒙)+(𝝁𝝎
+ℏ)𝟐
+𝒙𝟐 𝝍𝟎(𝒙)+ 𝟐𝝁
+ℏ𝟐 (𝟏
+𝟐)ℏ𝛚−𝟐𝝁
+ℏ𝟐𝟏
+𝟐 𝝁𝝎𝟐𝒙𝟐𝝍𝟎(𝒙)=𝟎 
+Thus, we note that 𝝍𝟎(𝒙) satisfies the SWE and hence is an 
+eigen function of the system  
+Similarly, verif y that 𝝍𝟏(𝒙) also satisf ies the SWE  with the 
+corresponding energy 𝐄𝟏=(𝟑
+𝟐)ℏ𝛚.] 
+The wave functions of the system can be graphically inferred  
+by considering each of the states to be equivalent t o a one-
+dimensional  finite potential well . The width of the well 
+corresponds to the maximum displacement in that state . 
+Therefore , the wave functions of the finite potential well that we 
+inferred are useful even in this c ase. However, each state has 
+an increasing width and the tails of the decaying wave 
+functions also increase as the energy of the state increases.  The probability distribution functions for 
+the first few states are also shown in the figure.  
+The real potential energy variations deviate f rom the ideal parabolic potential energy curve. The 
+bonding results in exchange of electrons / sharing of electrons resulting in a deviation of the 
+electrostatic interactions. The deviation is treated as a perturbation of the harmonic oscillator potential 
+with an addition term for the potential.  
+The result of this variation  results in energy levels which are 
+not uniformly distributed and the separation between the 
+energy levels decrease for larger values of n. 
+This analysis helps  us understand the vibration  energy states 
+of a diatomic molecule and forms the fundamental analysis of 
+the Infra Red absorption by the molecular.  This analysis can 
+be extended to understand the vibrational states of lattices in a 
+crystal which leads to the concept of phonons in cry stals.  
+ 
+ 
+ 
+ 
+ 
+  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+20 Department of Science and Humanities - Physics                                       
+ 
+Problem 7: Discussion of the solutions to the Hydrogen atom problem.  
+The hydrogen atom is the simplest possible stable atom with one proton in 
+the nucleus and one   electron in the orbital. In the ground state, the system 
+exhibits perfect spherical symmetry. Hence the possibility of looking for a 
+solution to the Schrodinger’s wave equation for the states of the electron 
+could be attempted. Though the problem looks ve ry simple as a case of only 
+two particles, the mathematical analysis of the solutions is very exhaustive.  
+The methodology and the solutions are discussed to present a picture of how 
+the quantum numbers of a system evolves out naturally from the solution of 
+the differential equation in three dimensions.  
+The 3D SWE in cartesian co -ordinate system can be written  as  
+ℏ𝟐
+𝟐𝒎(𝝏𝟐   
+𝝏𝒙𝟐  +𝝏𝟐     
+𝝏𝒚𝟐  +𝝏𝟐  
+𝝏𝒛𝟐   )𝚿(𝒙,𝒚,𝒛)+(𝑬 –𝑽)𝚿(𝒙,𝒚,𝒛)=𝟎 
+Since the hydrogen atom exhibits a spherical symmetry it is prudent to 
+write the Schrodinger’s wave equation in the spherical co -ordinate 
+system (𝒓,𝜽,𝜑). 
+[ the transition to the spherical coordinate system from the cartesian coordinate 
+system is possible with the transition relations  
+𝑥=𝑟sin𝜃cos𝜑 , 𝑦=𝑟sin𝜃sin𝜑  and 𝑧=𝑟cos𝜃    
+where 𝑟=√𝑥2+𝑦2+𝑧2 is the radius vector  
+𝜃=tan−1(√𝑥2+𝑦2
+𝑧) is the polar  angle (varying between 0 𝑡𝑜 2𝜋  and 
+𝜑=tan−1(𝑦
+𝑥)] is the azimuthal angle (varying between 0 𝑡𝑜 2𝜋  ] 
+ 
+In spherical polar co -ordinate system, the SWE can be written as  
+ℏ𝟐
+𝟐𝝁𝟏
+𝒓𝟐𝐬𝐢𝐧𝜽[𝐬𝐢𝐧𝜽𝝏
+𝝏𝒓(𝒓𝟐𝝏𝚿
+𝝏𝒓)+𝝏
+𝝏𝜽(𝐬𝐢𝐧𝜽𝝏𝚿
+𝝏𝜽)+𝟏
+𝐬𝐢𝐧𝜽𝝏𝟐𝚿   
+𝝏𝝋𝟐  ]+(𝑬−𝑽(𝒓) )𝚿(𝒓,𝜽,𝜑)=𝟎   
+where the wave function i n spherical polar co -ordinates is  𝚿(𝒓,𝜽,𝜑).  
+The potential energy  term can be written as 𝑽(𝒓)=𝒆𝟐
+𝟒𝝅𝜺𝒐𝒓 
+The wave function can be resolved into three independent components in the three independent 
+variables  𝒓,𝜽 𝑎𝑛𝑑  𝜑. 
+𝚿(𝒓,𝜽,𝜑)=𝑹(𝒓).𝚯(𝜽).𝚽(𝝋) 
+The S chrodinger’s wave equation can be resolved into three mutually independent equation s using the 
+method of separation of variables as  
+𝟏
+Φ𝝏𝟐𝚽   
+𝝏𝝋𝟐  =−𝒎𝒍𝟐  with the solution 𝚽(𝝋)=𝑨𝒆𝒊𝒎𝒍𝝋       where 𝒎𝒍=𝒐,±𝟏,±𝟐,….is the magnetic 
+quantum number (which gives the possible orientations of the quantized angular momentum of the 
+system).  
+Substituting for the expression 1
+Φ𝝏𝟐𝚽   
+𝝏𝝋𝟐   we can separate the expressions in 𝑹 𝒂𝒏𝒅  𝚯 as 
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+21 Department of Science and Humanities - Physics                                       
+ 
+𝒎𝒍𝟐
+𝐬𝐢𝐧𝟐𝜽−𝟏
+𝚯𝐬𝐢𝐧𝜽[𝝏
+𝝏𝜽(𝐬𝐢𝐧𝜽𝝏𝚯(𝜽)
+𝝏𝜽     )]=𝒍(𝒍+𝟏)        
+where 𝒍 is an arbitrary constant  which an integer greater than or equal to 𝒎𝒍. This  puts a restriction on 
+𝒎𝒍=𝒐,±𝟏,±𝟐,….±𝒍  
+In general, 𝒍=𝟎,𝟏,𝟐,𝟑…..𝒏−𝟏 is the angular momentum quantum number which describes the 
+quantized angular momentum of the orbital electron as 𝑳=√(𝒍(𝒍+𝟏).ℏ 
+The radial part of the wave equation  
+𝟏
+𝑹[𝝏
+𝝏𝒓(𝒓𝟐𝝏𝐑
+𝝏𝒓)+]+𝟐𝝁𝒓𝟐
+ℏ𝟐[𝑬 −𝑽(𝒓)] =𝒍(𝒍+𝟏)  
+We observe that the  energy of the system is dependent only on the solution of this equation  which 
+gives the radial component of the wave function  as  
+𝑹𝒏𝒍(𝒓)=𝟏
+𝒓𝝆𝒍+𝟏𝒆−𝝆.𝒗(𝝆) 
+The variable  𝝆=𝒓
+𝒂𝒏  where n is an integer 𝒏=𝟏,𝟐,𝟑..  and  𝒂≡𝟒𝝅𝜺𝒐ℏ𝟐
+𝝁𝒆𝟐=𝟎.𝟓𝟐𝟗 ×𝟏𝟎−𝟏𝟎𝒎 is the 
+Bohr radius.  
+𝒗(𝝆) is a polynomial of degree  𝒋𝒎𝒂𝒙 =𝒏−𝒍−𝟏   given by 𝒗(𝝆)=∑ 𝒄𝒋∞
+𝒋=𝟎𝝆𝒋   
+whose co -efficient are given by the recursion formula   𝒄𝒋+𝟏={𝟐(𝒋+𝒍+𝟏)−𝝆𝒐
+(𝒋+𝟏)(𝒋+𝟐𝒍+𝟐)}𝒄𝒋 and  𝝆𝒐=𝟐𝒏 
+The normalized radial wave function 𝑹𝒏𝒍(𝒓)=√(𝟐
+𝒏𝒂)𝟑(𝒏−𝒍−𝟏)!
+𝟐𝒏[(𝒏+𝟏)!]𝟑𝒆−𝒓𝒏𝒂⁄(𝟐𝒓
+𝒏𝒂)𝒍
+ 
+where n is the principal quantum number defined by 𝒏=𝟏,𝟐,𝟑….. 
+The first few radial wave functions can be written as  
+𝑹𝟏𝟎(𝑟)=𝟐𝒂−𝟑𝟐⁄𝒆−𝒓𝒂⁄  for n=1 and l= 0 
+𝑹𝟐𝟎(𝑟)=𝟏
+√𝟐𝒂−𝟑𝟐⁄(𝟏−𝟏
+𝟐𝒓
+𝒂)𝒆−𝒓𝟐𝒂⁄  for n= 2 and l= 0 
+𝑹𝟐𝟏(𝑟)=𝟏
+√𝟐𝟒𝒂−𝟑𝟐⁄(𝒓
+𝒂)𝒆−𝒓𝟐𝒂⁄ for n= 2 and l= 1 
+These  wave functions can be shown to be solutions of the radial wave 
+equation. Then by induction we conclude that the radial wave function is 
+a solution of the radial part of the SWE.   
+The probability of finding the electron at a distance r from the   nucleus can 
+be estimated using the probability density . The plot shows the probability of 
+locating the electron in the three states 1s , 2s and 3s.  
+The eigen energy simplifies to 𝑬𝒏=−ℏ𝟐𝒌𝟐
+𝟐𝝁=−𝝁𝒆𝟒
+𝟖𝝅𝟐𝜺𝒐𝟐ℏ𝟐𝝆𝒐𝟐=−𝝁𝒆𝟒
+𝟖𝝅𝟐𝜺𝒐𝟐ℏ𝟐.𝟒𝒏𝟐 
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+22 Department of Science and Humanities - Physics                                       
+ 
+𝑬𝒏=−[𝝁
+𝟐ℏ𝟐(𝒆𝟐
+𝟒𝝅𝜺𝒐)𝟐
+]𝟏
+𝒏𝟐  =−[𝝁
+𝟐ℏ𝟐(𝒆𝟐
+𝟒𝝅𝜺𝒐)𝟐
+]𝟏
+𝒏𝟐       where n=1,2,3….  
+The energy is written as negative to indicate that the  system is in a bound state. This implies that when 
+the energy of the system goes to zero the binding between the particles is broken and the particles are 
+free particles. This happens for a large value of 𝒏→∞ 
+The ground state energy of t he system can be evaluated as 𝑬𝟏=−[𝝁
+𝟐ℏ𝟐(𝒆𝟐
+𝟒𝝅𝜺𝒐)𝟐
+]=−𝟏𝟑.𝟔𝒆𝑽 
+The different allowed energy states correspond to the different values of n. This enables to estimate 
+the energy of transition between different states, which gives us the absorption or emission spectra of 
+the atom.  
+The energy difference between two state s can be evaluated as  
+∆𝑬=𝑬𝒏𝟏−𝑬𝒏𝟐=−[{𝝁
+𝟐ℏ𝟐(𝒆𝟐
+𝟒𝝅𝜺𝒐)𝟐
+}𝟏
+𝒏𝟏𝟐  −{𝝁
+𝟐ℏ𝟐(𝒆𝟐
+𝟒𝝅𝜺𝒐)𝟐
+}𝟏
+𝒏𝟐𝟐]  
+The transitions from states with 𝑛>1 𝑡𝑜 𝑛=1 result in 
+spectral lines in the ultraviolet region which is the Lyman 
+series.   
+The transitions from st ates with 𝑛>2 𝑡𝑜 𝑛=2 result in 
+spectral lines in the visible region which is the Balmer series.  
+The transitions from states with 𝑛>3 𝑡𝑜 𝑛=3 result in 
+spectral lines in the infra red region which is the Paschen 
+series.  
+The predicted values of the wa velengths of the spectral lines of the Hydrogen atom (∆𝐸=ℎ𝑐
+𝜆 )  agree 
+with the observed wavelengths in the emission spectra of the Hydrogen atom.  
+The same analysis can be used to study hydrogen like atoms with a single electron in the outer most 
+orbital such as Deuterium, doubly ionized Lithium, etc. The effective mass 𝝁 can be estimated and 
+gives reasonably correct values of the energy of the stat es and hence their spectral characteristics.  
+[  Verification of the eigen functions of the radial equation:  
+   The radial part of the wave equation  
+[𝝏
+𝝏𝒓(𝒓𝟐𝝏𝐑
+𝝏𝒓)+]+𝟐𝝁𝒓𝟐
+ℏ𝟐[𝑬 −𝑽(𝒓)] 𝑹=𝒍(𝒍+𝟏) 𝑹 
+For the state n=2, l=0   the radial   equation   𝑹𝟐𝟎(𝑟)=𝟏
+√𝟐𝒂−𝟑𝟐⁄(𝟏−𝟏
+𝟐𝒓
+𝒂)𝒆−𝒓𝟐𝒂⁄  
+The radial wave equation  [𝝏
+𝝏𝒓(𝒓𝟐𝝏𝐑𝟐𝟎
+𝝏𝒓)+]+𝟐𝝁𝒓𝟐
+ℏ𝟐[𝑬 −𝑽(𝒓)] 𝐑𝟐𝟎=𝟎 Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+23 Department of Science and Humanities - Physics                                       
+ 
+The energy 𝑬𝟐=−[𝝁
+𝟐ℏ𝟐(𝒆𝟐
+𝟒𝝅𝜺𝒐)𝟐
+]𝟏
+𝟐𝟐 and the potential  𝑽(𝒓)=𝒆𝟐
+𝟒𝝅𝜺𝒐𝒓    
+The first term of the Radial wave equation : 
+Differentiating 𝐑𝟐𝟎 with respect to 𝒓 once  
+  𝝏𝐑𝟐𝟎
+𝝏𝒓=  𝟏
+√𝟐𝒂−𝟑𝟐⁄(−𝟏
+𝟐𝒂𝒆−𝒓𝟐𝒂⁄−𝟏
+𝟐𝒂𝒆−𝒓𝟐𝒂⁄+𝒓
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄) = 𝟏
+√𝟐𝒂−𝟑𝟐⁄(−𝟏
+𝒂𝒆−𝒓𝟐𝒂⁄+𝒓
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄) 
+Multiplying the result with  𝒓𝟐       𝒓𝟐𝝏𝐑𝟐𝟎
+𝝏𝒓= 𝟏
+√𝟐𝒂−𝟑𝟐⁄(−𝒓𝟐
+𝒂𝒆−𝒓𝟐𝒂⁄+𝒓𝟑
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄)  
+Differentiating the result once again with respect to  𝒓 
+𝝏
+𝝏𝒓(𝒓𝟐𝝏𝐑𝟐𝟎
+𝝏𝒓)= 𝟏
+√𝟐𝒂−𝟑𝟐⁄(−𝟐𝒓
+𝒂𝒆−𝒓𝟐𝒂⁄−𝒓𝟐
+𝒂𝒆−𝒓𝟐𝒂⁄×(−𝟏
+𝟐𝒂)+𝟑𝒓𝟐
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄+𝒓𝟑
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄×(−𝟏
+𝟐𝒂)) 
+=𝟏
+√𝟐𝒂−𝟑𝟐⁄(−𝟐𝒓
+𝒂𝒆−𝒓𝟐𝒂⁄+𝟐𝒓𝟐
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄+𝟑𝒓𝟐
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄−𝒓𝟑
+(𝟐𝒂)𝟑𝒆−𝒓𝟐𝒂⁄) 
+𝝏
+𝝏𝒓(𝒓𝟐𝝏𝐑𝟐𝟎
+𝝏𝒓)=𝟏
+√𝟐𝒂−𝟑𝟐⁄(−𝟐𝒓
+𝒂𝒆−𝒓𝟐𝒂⁄+𝟓𝒓𝟐
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄−𝒓𝟑
+(𝟐𝒂)𝟑𝒆−𝒓𝟐𝒂⁄)  
+Evaluating the second term , substituting for 𝑬𝟐 &  𝑽(𝒓) and simplifying  
+𝟐𝝁𝒓𝟐
+ℏ𝟐[𝑬𝟐 −𝑽(𝒓)] =[−𝟐𝝁𝒓𝟐
+ℏ𝟐[𝝁
+𝟐ℏ𝟐(𝒆𝟐
+𝟒𝝅𝜺𝒐)𝟐
+]𝟏
+𝟐𝟐−𝟐𝝁𝒓𝟐
+ℏ𝟐𝒆𝟐
+𝟒𝝅𝜺𝒐𝒓]=[−𝒓𝟐
+(𝟐𝒂)𝟐+𝟐𝒓
+𝒂]   
+𝟐𝝁𝒓𝟐
+ℏ𝟐[𝑬 −𝑽(𝒓)] 𝐑𝟐𝟎=[−𝟐𝒓𝟐
+(𝟐𝒂)𝟐+𝟐𝒓
+𝒂]×𝟏
+√𝟐𝒂−𝟑𝟐⁄(𝟏−𝟏
+𝟐𝒓
+𝒂)𝒆−𝒓𝟐𝒂⁄   
+=𝟏
+√𝟐𝒂−𝟑𝟐⁄(𝟏−𝟏
+𝟐𝒓
+𝒂)[−𝟐𝒓𝟐
+(𝟐𝒂)𝟐+𝟐𝒓
+𝒂]𝒆−𝒓𝟐𝒂⁄  
+=𝟏
+√𝟐𝒂−𝟑𝟐⁄[−𝒓𝟐
+(𝟐𝒂)𝟐+𝟐𝒓
+𝒂+𝒓𝟑
+(𝟐𝒂)𝟑−𝟐
+𝟐𝒓𝟐
+𝒂𝟐]𝒆−𝒓𝟐𝒂⁄  
+=𝟏
+√𝟐𝒂−𝟑𝟐⁄[𝒓𝟑
+(𝟐𝒂)𝟑−𝟓𝒓𝟐
+(𝟐𝒂)𝟐+𝟐𝒓
+𝒂+]𝒆−𝒓𝟐𝒂⁄  
+The sum of the two terms  
+𝟏
+√𝟐𝒂−𝟑𝟐⁄(−𝟐𝒓
+𝒂𝒆−𝒓𝟐𝒂⁄+𝟓𝒓𝟐
+(𝟐𝒂)𝟐𝒆−𝒓𝟐𝒂⁄−𝒓𝟑
+(𝟐𝒂)𝟑𝒆−𝒓𝟐𝒂⁄)+𝟏
+√𝟐𝒂−𝟑𝟐⁄[𝒓𝟑
+(𝟐𝒂)𝟑−𝟓𝒓𝟐
+(𝟐𝒂)𝟐+𝟐𝒓
+𝒂+]𝒆−𝒓𝟐𝒂⁄=0  
+Thus, 𝐑𝟐𝟎 is  a solution of the radial wave equation.  It can be verified similarly for wave functions of 
+any state.    ] 
+  Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+24 Department of Science and Humanities - Physics                                       
+ 
+[Particle  in a Box with infinite potenti als at the walls (boundaries at 
+x=0 to x=L  
+A particle in an  one dimensional box is confined to be within the 
+boundaries (x=0 and x=L) where the potential tends to infinity. The 
+particle cannot be found outside the boundary x<0 and X>L.  The 
+potential inside the well V=0.   
+The Schrödinger’s wave equation    𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2(𝐸−𝑉)𝜓=0     
+in the region within the well V=0 this becomes   𝜕2𝜓
+𝜕𝑥2+2𝑚
+ℏ2𝐸𝜓=0  
+𝜕2𝜓
+𝜕𝑥2+𝑘2𝜓=0 where 𝑘=√2𝑚𝐸
+ℏ2 
+The solution of the equation in region 0<x<L  is given by  
+𝜓(𝑥)=𝐴𝑠𝑖𝑛 (𝑘𝑥)+𝐵𝑐𝑜𝑠 (𝑘𝑥) 
+Applying the boundary condition tha t 𝜓=0 𝑎𝑡 𝑥=0 𝑎𝑛𝑑  𝑥=𝐿   
+At x=0   𝜓(𝑥=0)=𝐴𝑠𝑖𝑛 (𝑘0)+𝐵𝑐𝑜𝑠 (𝑘0)= 0  𝑔𝑖𝑣𝑒𝑠  𝐵=0 
+The wave function then reduces to 𝜓(𝑥)=𝐴𝑠𝑖𝑛 (𝑘𝑥) 
+At x=L   𝜓(𝐿)=𝐴𝑠𝑖𝑛 (𝑘𝐿)=0 . 
+If A=0 the wave function does not exist and hence 𝑘𝐿=𝑛𝜋 
+Or  𝑘=𝑛.𝜋
+𝐿 , thus propagation constant can be only multiples of 𝜋
+𝐿 
+This also gives us the energy 𝐸𝑛=ℏ2𝑛2
+8𝑚𝐿2   
+The wave function then reduces to 𝜓(𝑥)=𝐴𝑠𝑖𝑛 (𝑛𝜋
+𝐿 𝑥) 
+The constant A can be evaluated by normalizing the wave function ie., ∫𝜓∗𝜓𝐿
+0𝑑𝑥=1 
+∫[𝐴𝑠𝑖𝑛 (𝑛𝜋
+𝐿𝑥)]2 𝐿
+0𝑑𝑥=𝐴2
+2 ∫[1−cos(2𝑛𝜋
+𝐿𝑥)]𝐿
+0𝑑𝑥 
+Which on integration gives    𝐴2
+2 [1−𝐿
+2𝑛𝜋sin(2𝑛𝜋
+𝐿𝑥)]
+0𝐿
+= 𝐴2
+2 [𝐿−0]=1 . 
+This gives a value of 𝐴=√2
+𝐿 
+The exact form of the wave function becomes 𝜓𝑛(𝑥)=√2
+𝐿sin(𝑛𝜋
+𝐿𝑥) 
+Eigen functions and Eigen values  
+The Eigen function of a particle in a infinite potential well 𝜓𝑛=√2
+𝐿sin(𝑛𝜋𝑥
+𝐿) and the Eigen energy 
+values is given function 𝐸𝑛=ℎ2𝑛2
+8𝑚𝐿2  where n = 1,2 3…  
+The first three states correspond to n=1,2 and 3  
+ 
+The Eigen fuctions are 𝜓1=√2
+𝐿sin(𝜋𝑥
+𝐿)    𝜓2=√2
+𝐿sin(2𝜋𝑥
+𝐿)     𝜓3=√2
+𝐿sin(3𝜋𝑥
+𝐿) 
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+25 Department of Science and Humanities - Physics                                       
+ 
+And the Eigen values are 𝐸1=ℎ2
+8𝑚𝐿2      𝐸2=ℎ222
+8𝑚𝐿2      𝐸3=ℎ232
+8𝑚𝐿2 
+ 
+Probability density 𝜓∗𝜓 for the first three states is obtained by squaring the wave function  
+ 𝜓𝑛=√2
+𝐿sin(𝑛𝜋𝑥
+𝐿) .  The square of the function is close to a Gaussian shape.   
+In the first state n=1 the probability of finding the particle is maximum at  𝐿2⁄  and the area under the 
+curve represents the total probability of finding the particle in the ground state whic h is 1.00  
+In the second state n=2 the probability of finding the particle is maximum at  𝐿4⁄  and 3𝐿4⁄ .The area 
+under one segment of the curve represents the probability of finding the particle in the first excited 
+state and is 1𝑛⁄=0.5.   
+In the third sta te n=3 the probability of finding the particle is maximum at 𝐿6⁄ , 𝐿3⁄  and +5𝐿6⁄ .The 
+area under one segment of the curve  represents the probability of finding the particle in the first 
+excited state and is 1𝑛⁄=0.333.   
+In general, the probability of find ing the particle in the nth state, in a segment of length   𝐿𝑛⁄   is   1𝑛⁄.] 
+ 
+  
+Quantum Mechanics of Simple systems  Unit II                                202 1 
+ 
+26 Department of Science and Humanities - Physics                                       
+ 
+Numericals  
+ 
+1. Electrons with energies of 4 .00 eV are incident on a potential step 3.0 eV high . Find the 
+probability of reflection at x=0 and transmission for x>0 .  (Ans R=         ;T =19.20%)  
+ 
+2. A proton with energy E is incident on a potential step  of height 3.5eV. If the de Broglie 
+wavelength of the particle after transmission  is 1.228 nm, find the energy of the proton.  
+ 
+3. A beam of identical electrons is incident on a barrier 6.0 eV high and 2 nm wid e. Find the 
+energy of the electrons if 1% of the electrons are to get through the barrier. (Ans =5.963eV)  
+ 
+4. An electron and a proton with the same energy E approach a potential barrier whose height U 
+is greater than E. Comment  on their tunneling probability.  
+ 
+5. A current beam 10 pico amperes (of identical electrons) is incident on a barrier 5.0 eV high 
+and 1 nm wide. Find the transmitted current strength if the energy of the electrons is 
+4.9ev. (Ans =  T=3.93%  Transmitted current = 10pA *.0393 = 0.393pA ) 
+ 
+6. Find the normalisation constant  B for the wave function 𝛹 = 𝐵[𝑠𝑖𝑛(𝜋𝑥/𝐿)+𝑠𝑖𝑛(2𝜋𝑥/𝐿)]  ( 
+Ans  𝑩=√𝟏
+𝑳 ) 
+7. Show that the probability of finding a particle trapped in an infinite potential well between x 
+and x+Δx is approx Δx/L and is independent of x.  
+ 
+8. Find the probability that a particle in a box of width L can be found between 0 and L/n when 
+the particle is i n the nth state  
+ 
+9. A particle in an infinite potential well of width a. Find the probability of finding the particle 
+between a/3 and 2a/3 in the ground and third excited states.  (Ans:)  
+ 
+10. What is the minimum energy of an electron trapped in a one dimensional region the size of an 
+atomic nucleus (1 x 10-14 m)?  (Ans 3.77 Gev ) 
+ 
+11. Find the energy required to excite a particle in a box of width ‘a’ from the second excited state 
+to the fifth state . () 
+ 
+ 

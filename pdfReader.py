@@ -1,56 +1,30 @@
+from PyPDF2 import PdfReader as PyPdfReader 
 
+class PdfReaderclass:
+    def __init__(self, pdfname):
+        self.pdfname = pdfname
 
-# importing required classes 
-from pypdf import PdfReader 
-  
-# creating a pdf reader object 
-# # reader = PdfReader('Eng Math Unit 3-Class Work Problems.pdf') 
-# # reader = PdfReader('Mechanics Statics Complete.pdf') 
-# reader = PdfReader('Basic Mechanical Engineering (Pearson) By Pravin Kumar.pdf') 
-  
-# # printing number of pages in pdf file 
-# # print(len(reader.pages)) 
-# length_of_page_in_pdf = len(reader.pages)
-# length_of_page_in_pdf=int(length_of_page_in_pdf)
-# print("inside")
-# # creating a page object 
-# for i in range(length_of_page_in_pdf):
-#     page = reader.pages[i] 
-  
-# # extracting text from page 
-#     print("\n")
-#     print(page.extract_text()) 
-# print("outside")
-
-class pdfreader:
-    def __init__(self,pdfname):
-        self.pdf = pdfname
-    def extract_text(pdfnamee):
-        name = pdfnamee
-        reader = PdfReader(name) 
-        
-        # printing number of pages in pdf file 
-        # print(len(reader.pages)) 
+    def extract_text(self):
+        name = self.pdfname
+        reader = PyPdfReader(name)
         length_of_page_in_pdf = len(reader.pages)
-        length_of_page_in_pdf=int(length_of_page_in_pdf)
-        print("inside")
         content = ""
-        # creating a page object 
         for i in range(length_of_page_in_pdf):
-            page = reader.pages[i] 
-        
-        # extracting text from page 
-            # print("\n")
-            # print(page.extract_text())
-            content += str( page.extract_text())
+            page = reader.pages[i]
+            content += page.extract_text()
         print(content)
-        File_object = open(r"File_Name.txt","w+")
-        File_object.write(str(content))
+        print(type(content))
+        try:
+            with open("myfile.txt", "w+",encoding='utf-8') as f:
+                f.write(f"{content}")
+            print("File written successfully.")
+        except Exception as e:
+            print(f"Error writing to file: {e}")
         return content
+
     def __str__(self):
-        return f"{self.pdf}"
+        return f"{self.pdfname}"
 
-
-# pdfreader("Basic Mechanical Engineering (Pearson) By Pravin Kumar.pdf")
-# print(pdfreader.extract_text("Basic Mechanical Engineering (Pearson) By Pravin Kumar.pdf"))
-
+# Example usage:
+pdf = PdfReaderclass("2 Quantum mechanics of simple systems Unit II.pdf")
+pdf.extract_text()
